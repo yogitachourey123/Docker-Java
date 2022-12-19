@@ -1,5 +1,5 @@
 FROM java:8  
-COPY . /var/www/java  
-WORKDIR /var/www/java  
+COPY . D:\DEMO_DOCKERFILE_JAVA
+WORKDIR D:\DEMO_DOCKERFILE_JAVA 
 RUN javac Hello.java  
 CMD ["java", "Hello"]  
